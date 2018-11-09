@@ -45,6 +45,8 @@ find_webpack_chunks = (code) ->
 test_files = {
   'youtube_prompt_before_watch.js': [ 0, 2, 3, 4, 1, 5, 36 ]
   'youtube_prompt_before_watch_minified.js': [ 0, 2, 3, 4, 1, 5, 36 ]
+  'non_packed.js': []
+  'minimal_packed.js': []
 }
 
 run_tests = ->>
